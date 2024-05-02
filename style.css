@@ -1,0 +1,134 @@
+
+body{
+    background-color: #1E1E1E;
+    font-family: "Poppins", sans-serif;
+}
+a ,h2 , p , li{
+    color : white
+}
+
+.box-card p{
+color: #1E1E1E;
+}
+
+h4 {
+    color: #1E1E1E;
+    margin-right: 14px;
+}
+ol li {
+    color : #FEE021;
+    font-weight: bold;
+}
+ul li {
+    color : white;
+    font-weight: 400;
+}
+a{
+    font-weight: bold;
+}
+.header-section{
+    background-color :  #1E1E1E;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.25);
+    padding: 20px 
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+.flex-space-between{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-space-arround{
+    display: flex;
+    justify-content: space-around;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+.detail-headline{
+    height: fit-content;
+    margin: auto 0;
+}
+.line{
+    width:300px;
+    height: 8px;
+    background-color: #595EDA;
+    margin: auto;
+}
+input, textarea{
+    width:100%;
+    border: 0px;
+    outline: none;
+}
+textarea{
+    resize: none;
+}
+
+.fixed-position{
+    position: fixed;
+    width: 100%;
+    top:0;
+    left:0;
+}
+
+.title-form{
+    text-align: center;
+}
+
+.box-card{
+    width: 400px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    margin: auto;
+    box-shadow: 15px 15px 30px #595EDA;
+}
+
+.form-input{
+    border: solid 1px #1E1E1E;
+    padding: 8px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+.box-name{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+/* .box-name{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    position: relative;
+    height: 200px;
+} */
+
+/* .box-card{
+    width: 400px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    margin: auto;
+    box-shadow: 15px 15px 30px #595EDA;
+}
+.form-input{
+    border: solid 1px #B3B3B3;
+    padding:8px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+} */
+
+button{
+    width: 100%;
+    background-color : #595EDA;
+    border: 0px;
+    padding:13px 0;
+    border-radius:10px;
+    color: white;
+    font-weight: bold;
+}
